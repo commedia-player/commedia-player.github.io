@@ -1,0 +1,13 @@
+# Commedia VR Video Player
+
+> Commedia builds VR video players for imersive content - a native Meta Quest app and a browser-based Web app.
+
+- Immersive video deserves software designed with the same care as the content itself. That's why every feature is built to make VR playback feel effortless. 
+- Purpose-built for immersive video, with features that solve real problems—from playback performance to subtitles, passthrough, and streaming. 
+- Everything you need to watch, share, and deliver immersive VR video—on standalone headsets and the web. 
+
+## Table of Contents
+
+- [Home](https://commedia.app/)
+- [Mobile App](https://commedia.app/mobile): Commedia is high-performance VR video player for Meta Quest. Stream 8k content in 2D, 3D and 180°/360° video with subtitles, passthrough, and wireless streaming from SMB, NAS or DLNA.
+- [Web App](https://commedia.app/web): Browser-based VR video player for any headset. Supports 2D, 3D and 180°/360° video, HLS/MPEG-DASH streaming, chapters, subtitles and passthrough.
