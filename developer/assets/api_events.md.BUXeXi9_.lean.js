@@ -1,0 +1,1 @@
+import{_t as e,it as t,n,rt as r}from"./chunks/framework.BiaoUsss.js";var i=JSON.parse(`{"title":"Events","description":"","frontmatter":{},"headers":[],"relativePath":"api/events.md","filePath":"api/events.md"}`),a={name:`api/events.md`};function o(n,i,a,o,s,c){return e(),r(`div`,null,[...i[0]||=[t("",6)]])}var s=n(a,[[`render`,o]]);export{i as __pageData,s as default};
