@@ -1,26 +1,427 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Commedia Web</title>
-    <meta name="description" content="Developer documentation for Commedia Web video player">
-    <meta name="generator" content="VitePress v2.0.0-alpha.20">
-    
-    <link rel="preload stylesheet" href="/developer/assets/style.B2Ftcxgd.css" as="style">
-    <link rel="preload stylesheet" href="/developer/assets/vp-icons.f52a4809.css" as="style">
-    <script type="module" src="/developer/assets/chunks/metadata.275e4d85.js"></script>
-    <script type="module" src="/developer/assets/app.ugEVxtbk.js"></script>
-    <link rel="preload" href="/developer/assets/inter-roman-latin.q5rAVC0E.woff2" as="font" type="font/woff2" crossorigin="">
-    <link rel="modulepreload" href="/developer/assets/chunks/framework.BiaoUsss.js">
-    <link rel="modulepreload" href="/developer/assets/chunks/theme.DNof2ajC.js">
-    <link rel="modulepreload" href="/developer/assets/index.md.D83T9BgT.lean.js">
-    <script id="check-dark-mode">(()=>{let e=localStorage.getItem(`vitepress-theme-appearance`)||`auto`,t=window.matchMedia(`(prefers-color-scheme: dark)`).matches;(!e||e===`auto`?t:e===`dark`)&&document.documentElement.classList.add(`dark`)})();</script>
-    <script id="check-mac-os">document.documentElement.classList.toggle(`mac`,/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta
+      name="description"
+      content="Developer documentation for Commedia Web video player"
+    />
+    <meta name="generator" content="VitePress v2.0.0-alpha.20" />
+
+    <link
+      rel="preload stylesheet"
+      href="/developer/assets/style.B2Ftcxgd.css"
+      as="style"
+    />
+    <link
+      rel="preload stylesheet"
+      href="/developer/assets/vp-icons.f52a4809.css"
+      as="style"
+    />
+    <script
+      type="module"
+      src="/developer/assets/chunks/metadata.6c703646.js"
+    ></script>
+    <script type="module" src="/developer/assets/app.wQRElNsg.js"></script>
+    <link
+      rel="preload"
+      href="/developer/assets/inter-roman-latin.q5rAVC0E.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin=""
+    />
+    <link
+      rel="modulepreload"
+      href="/developer/assets/chunks/framework.BiaoUsss.js"
+    />
+    <link
+      rel="modulepreload"
+      href="/developer/assets/chunks/theme.cFeWD4Fg.js"
+    />
+    <link
+      rel="modulepreload"
+      href="/developer/assets/index.md.CmidUnVX.lean.js"
+    />
+    <script id="check-dark-mode">
+      (() => {
+        let e = localStorage.getItem(`vitepress-theme-appearance`) || `auto`,
+          t = window.matchMedia(`(prefers-color-scheme: dark)`).matches;
+        (!e || e === `auto` ? t : e === `dark`) &&
+          document.documentElement.classList.add(`dark`);
+      })();
+    </script>
+    <script id="check-mac-os">
+      document.documentElement.classList.toggle(
+        `mac`,
+        /Mac|iPhone|iPod|iPad/i.test(navigator.platform),
+      );
+    </script>
   </head>
   <body>
-    <div id="app"><div class="Layout" data-v-7aa807ef><!--[--><!--]--><!--[--><span tabindex="-1" data-v-426d5ecb></span><a href="#VPContent" class="VPSkipLink visually-hidden" data-v-426d5ecb>Skip to content</a><!--]--><!----><header class="VPNav" data-v-7aa807ef data-v-f733e610><div class="VPNavBar home top" data-v-f733e610 data-v-dac69e74><div class="wrapper" data-v-dac69e74><div class="container" data-v-dac69e74><div class="title" data-v-dac69e74><div class="VPNavBarTitle" data-v-dac69e74 data-v-3cb61e0b><a class="title" href="/developer/" title="Commedia Web" data-v-3cb61e0b><!--[--><!--]--><!--[--><img class="VPImage logo" src="/developer/Logo.webp" alt data-v-453cd2d1><!--]--><span data-v-3cb61e0b>Commedia Web</span><!--[--><!--]--></a></div></div><div class="content" data-v-dac69e74><div class="content-body" data-v-dac69e74><!--[--><!--]--><div class="VPNavBarSearch search" data-v-dac69e74 data-v-b09c5db8><!--[--><button type="button" class="VPNavBarSearchButton" aria-label="Search" aria-keyshortcuts="/ control+k meta+k" data-v-b09c5db8 data-v-573637dc><span class="vpi-search" aria-hidden="true" data-v-573637dc></span><span class="text" data-v-573637dc>Search</span><span class="keys" aria-hidden="true" data-v-573637dc><kbd class="key-mod" data-v-573637dc></kbd><kbd class="key-k" data-v-573637dc></kbd></span></button><!----><!--]--></div><nav aria-label="Main Navigation" class="VPNavMenu VPNavBarMenu menu" data-v-dac69e74 data-v-0474edcd><ul class="list" data-v-0474edcd><!--[--><li class="" data-v-0474edcd><a class="VPLink link VPNavMenuLink VPNavBarMenuLink active" href="/developer/" aria-current="page" data-v-0474edcd data-v-60fe87c8><!--[--><span data-v-60fe87c8>Home</span><!--]--></a></li><li class="" data-v-0474edcd><a class="VPLink link VPNavMenuLink VPNavBarMenuLink" href="/developer/guide/getting-started.html" data-v-0474edcd data-v-60fe87c8><!--[--><span data-v-60fe87c8>Getting Started</span><!--]--></a></li><li class="" data-v-0474edcd><a class="VPLink link VPNavMenuLink VPNavBarMenuLink" href="/developer/api/player-attributes.html" data-v-0474edcd data-v-60fe87c8><!--[--><span data-v-60fe87c8>API Reference</span><!--]--></a></li><!--]--></ul></nav><!----><div class="VPNavAppearance VPNavBarAppearance appearance" data-v-dac69e74 data-v-b1d5eb1e><!----><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title aria-label="Appearance" aria-checked="false" data-v-b1d5eb1e data-v-2e76c223 data-v-127358ab><span class="check" data-v-127358ab><span class="icon" data-v-127358ab><!--[--><span class="vpi-sun sun" aria-hidden="true" data-v-2e76c223></span><span class="vpi-moon moon" aria-hidden="true" data-v-2e76c223></span><!--]--></span></span></button></div><ul class="VPSocialLinks VPNavSocialLinks VPNavBarSocialLinks social-links" data-v-dac69e74 data-v-b82bf4eb data-v-bf5b9ad4><!--[--><li data-v-bf5b9ad4><a class="VPSocialLink no-icon" href="https://commedia.app/discord" aria-label="discord" target="_blank" rel="me noopener" data-v-bf5b9ad4 data-v-75f3ae3a><span class="vpi-simple-icons-discord" data-v-75f3ae3a data-v-ac9da605></span></a></li><li data-v-bf5b9ad4><a class="VPSocialLink no-icon" href="https://www.reddit.com/u/CommediaPlayer" aria-label="reddit" target="_blank" rel="me noopener" data-v-bf5b9ad4 data-v-75f3ae3a><span class="vpi-simple-icons-reddit" data-v-75f3ae3a data-v-ac9da605></span></a></li><li data-v-bf5b9ad4><a class="VPSocialLink no-icon" href="https://facebook.com/CommediaPlayer" aria-label="facebook" target="_blank" rel="me noopener" data-v-bf5b9ad4 data-v-75f3ae3a><span class="vpi-simple-icons-facebook" data-v-75f3ae3a data-v-ac9da605></span></a></li><!--]--></ul><!----><!--[--><!--]--><button type="button" class="VPNavBarHamburger hamburger" aria-label="Menu" aria-expanded="false" data-v-dac69e74 data-v-f895b5e0><span class="container" aria-hidden="true" data-v-f895b5e0><span class="top" data-v-f895b5e0></span><span class="middle" data-v-f895b5e0></span><span class="bottom" data-v-f895b5e0></span></span></button></div></div></div></div><div class="divider" data-v-dac69e74><div class="divider-line" data-v-dac69e74></div></div></div><!----></header><!----><!----><div class="VPContent is-home" id="VPContent" data-v-7aa807ef data-v-b934d83e><div class="VPHome" data-v-b934d83e data-v-c6199a69><!--[--><!--]--><div class="VPHero VPHomeHero" data-v-c6199a69 data-v-32cafb29><div class="container" data-v-32cafb29><div class="main" data-v-32cafb29><!--[--><!--]--><!--[--><h1 class="heading" data-v-32cafb29><span class="name clip" data-v-32cafb29>Commedia Web</span><span class="text" data-v-32cafb29>Developer documentation</span></h1><p class="tagline" data-v-32cafb29>Everything you need to integrate, configure, and customize your video player.</p><!--]--><!--[--><!--]--><div class="actions" data-v-32cafb29><!--[--><!--]--><!--[--><div class="action" data-v-32cafb29><a class="VPButton no-icon medium brand" href="/developer/guide/getting-started.html" data-v-32cafb29 data-v-6356dfe3><!--[-->Getting Started<!--]--></a></div><div class="action" data-v-32cafb29><a class="VPButton no-icon medium alt" href="/developer/api/player-attributes.html" data-v-32cafb29 data-v-6356dfe3><!--[-->API Reference<!--]--></a></div><!--]--></div><!--[--><!--]--></div><!----></div></div><!--[--><!--]--><!--[--><!--]--><div class="VPFeatures VPHomeFeatures" data-v-c6199a69 data-v-aff0b625><div class="container" data-v-aff0b625><ul class="items" data-v-aff0b625><!--[--><li class="grid-3 item" data-v-aff0b625><div class="VPLink no-icon VPFeature" data-v-aff0b625 data-v-f20d54ef><!--[--><article class="box" data-v-f20d54ef><div class="icon" data-v-f20d54ef>🛠️</div><h2 class="title" data-v-f20d54ef>Easy Integration</h2><p class="details" data-v-f20d54ef>Get started quickly with clear setup instructions and everything you need to embed the player into your platform.</p><!----></article><!--]--></div></li><li class="grid-3 item" data-v-aff0b625><div class="VPLink no-icon VPFeature" data-v-aff0b625 data-v-f20d54ef><!--[--><article class="box" data-v-f20d54ef><div class="icon" data-v-f20d54ef>⚙️</div><h2 class="title" data-v-f20d54ef>Flexible Configuration</h2><p class="details" data-v-f20d54ef>Configure options and tailor the player to fit you needs. Fine tune behavior and apperance to create an intiutive experience.</p><!----></article><!--]--></div></li><li class="grid-3 item" data-v-aff0b625><div class="VPLink no-icon VPFeature" data-v-aff0b625 data-v-f20d54ef><!--[--><article class="box" data-v-f20d54ef><div class="icon" data-v-f20d54ef>📚</div><h2 class="title" data-v-f20d54ef>Detailed Documentation</h2><p class="details" data-v-f20d54ef>Explore configuration options and practical examples to understand player's capabilities and customizations.</p><!----></article><!--]--></div></li><!--]--></ul></div></div><!--[--><!--]--><div class="VPHomeContent vp-doc container" data-v-c6199a69 data-v-24cfbf57><!--[--><div style="position:relative;" data-v-c6199a69><div></div></div><!--]--></div></div></div><footer class="VPFooter" data-v-7aa807ef data-v-0fe63196><div class="container" data-v-0fe63196><!----><p class="copyright" data-v-0fe63196>Commedia © 2026. All rights reserved.</p></div></footer><!--[--><!--]--></div></div>
-    
-    
+    <div id="app">
+      <div class="Layout" data-v-7aa807ef>
+        <!--[--><!--]--><!--[--><span tabindex="-1" data-v-426d5ecb></span
+        ><a href="#VPContent" class="VPSkipLink visually-hidden" data-v-426d5ecb
+          >Skip to content</a
+        ><!--]--><!---->
+        <header class="VPNav" data-v-7aa807ef data-v-f733e610>
+          <div class="VPNavBar home top" data-v-f733e610 data-v-dac69e74>
+            <div class="wrapper" data-v-dac69e74>
+              <div class="container" data-v-dac69e74>
+                <div class="title" data-v-dac69e74>
+                  <div class="VPNavBarTitle" data-v-dac69e74 data-v-3cb61e0b>
+                    <a
+                      class="title"
+                      href="/developer/"
+                      title="Commedia Web"
+                      data-v-3cb61e0b
+                      ><!--[--><!--]--><!--[--><img
+                        class="VPImage logo"
+                        src="/developer/Logo.webp"
+                        alt
+                        data-v-453cd2d1
+                      /><!--]--><span data-v-3cb61e0b>Commedia Web</span
+                      ><!--[--><!--]--></a
+                    >
+                  </div>
+                </div>
+                <div class="content" data-v-dac69e74>
+                  <div class="content-body" data-v-dac69e74>
+                    <!--[--><!--]-->
+                    <div
+                      class="VPNavBarSearch search"
+                      data-v-dac69e74
+                      data-v-b09c5db8
+                    >
+                      <!--[--><button
+                        type="button"
+                        class="VPNavBarSearchButton"
+                        aria-label="Search"
+                        aria-keyshortcuts="/ control+k meta+k"
+                        data-v-b09c5db8
+                        data-v-573637dc
+                      >
+                        <span
+                          class="vpi-search"
+                          aria-hidden="true"
+                          data-v-573637dc
+                        ></span
+                        ><span class="text" data-v-573637dc>Search</span
+                        ><span class="keys" aria-hidden="true" data-v-573637dc
+                          ><kbd class="key-mod" data-v-573637dc></kbd
+                          ><kbd class="key-k" data-v-573637dc></kbd
+                        ></span></button
+                      ><!----><!--]-->
+                    </div>
+                    <nav
+                      aria-label="Main Navigation"
+                      class="VPNavMenu VPNavBarMenu menu"
+                      data-v-dac69e74
+                      data-v-0474edcd
+                    >
+                      <ul class="list" data-v-0474edcd>
+                        <!--[-->
+                        <li class="" data-v-0474edcd>
+                          <a
+                            class="VPLink link VPNavMenuLink VPNavBarMenuLink active"
+                            href="/developer/"
+                            aria-current="page"
+                            data-v-0474edcd
+                            data-v-60fe87c8
+                            ><!--[--><span data-v-60fe87c8>Home</span
+                            ><!--]--></a
+                          >
+                        </li>
+                        <li class="" data-v-0474edcd>
+                          <a
+                            class="VPLink link VPNavMenuLink VPNavBarMenuLink"
+                            href="/developer/guide/getting-started.html"
+                            data-v-0474edcd
+                            data-v-60fe87c8
+                            ><!--[--><span data-v-60fe87c8>Getting Started</span
+                            ><!--]--></a
+                          >
+                        </li>
+                        <li class="" data-v-0474edcd>
+                          <a
+                            class="VPLink link VPNavMenuLink VPNavBarMenuLink"
+                            href="/developer/api/player-attributes.html"
+                            data-v-0474edcd
+                            data-v-60fe87c8
+                            ><!--[--><span data-v-60fe87c8>API Reference</span
+                            ><!--]--></a
+                          >
+                        </li>
+                        <!--]-->
+                      </ul>
+                    </nav>
+                    <!---->
+                    <div
+                      class="VPNavAppearance VPNavBarAppearance appearance"
+                      data-v-dac69e74
+                      data-v-b1d5eb1e
+                    >
+                      <!----><button
+                        class="VPSwitch VPSwitchAppearance"
+                        type="button"
+                        role="switch"
+                        title
+                        aria-label="Appearance"
+                        aria-checked="false"
+                        data-v-b1d5eb1e
+                        data-v-2e76c223
+                        data-v-127358ab
+                      >
+                        <span class="check" data-v-127358ab
+                          ><span class="icon" data-v-127358ab
+                            ><!--[--><span
+                              class="vpi-sun sun"
+                              aria-hidden="true"
+                              data-v-2e76c223
+                            ></span
+                            ><span
+                              class="vpi-moon moon"
+                              aria-hidden="true"
+                              data-v-2e76c223
+                            ></span
+                            ><!--]--></span
+                          ></span
+                        >
+                      </button>
+                    </div>
+                    <ul
+                      class="VPSocialLinks VPNavSocialLinks VPNavBarSocialLinks social-links"
+                      data-v-dac69e74
+                      data-v-b82bf4eb
+                      data-v-bf5b9ad4
+                    >
+                      <!--[-->
+                      <li data-v-bf5b9ad4>
+                        <a
+                          class="VPSocialLink no-icon"
+                          href="https://commedia.app/discord"
+                          aria-label="discord"
+                          target="_blank"
+                          rel="me noopener"
+                          data-v-bf5b9ad4
+                          data-v-75f3ae3a
+                          ><span
+                            class="vpi-simple-icons-discord"
+                            data-v-75f3ae3a
+                            data-v-ac9da605
+                          ></span
+                        ></a>
+                      </li>
+                      <li data-v-bf5b9ad4>
+                        <a
+                          class="VPSocialLink no-icon"
+                          href="https://www.reddit.com/u/CommediaPlayer"
+                          aria-label="reddit"
+                          target="_blank"
+                          rel="me noopener"
+                          data-v-bf5b9ad4
+                          data-v-75f3ae3a
+                          ><span
+                            class="vpi-simple-icons-reddit"
+                            data-v-75f3ae3a
+                            data-v-ac9da605
+                          ></span
+                        ></a>
+                      </li>
+                      <li data-v-bf5b9ad4>
+                        <a
+                          class="VPSocialLink no-icon"
+                          href="https://facebook.com/CommediaPlayer"
+                          aria-label="facebook"
+                          target="_blank"
+                          rel="me noopener"
+                          data-v-bf5b9ad4
+                          data-v-75f3ae3a
+                          ><span
+                            class="vpi-simple-icons-facebook"
+                            data-v-75f3ae3a
+                            data-v-ac9da605
+                          ></span
+                        ></a>
+                      </li>
+                      <!--]-->
+                    </ul>
+                    <!----><!--[--><!--]--><button
+                      type="button"
+                      class="VPNavBarHamburger hamburger"
+                      aria-label="Menu"
+                      aria-expanded="false"
+                      data-v-dac69e74
+                      data-v-f895b5e0
+                    >
+                      <span class="container" aria-hidden="true" data-v-f895b5e0
+                        ><span class="top" data-v-f895b5e0></span
+                        ><span class="middle" data-v-f895b5e0></span
+                        ><span class="bottom" data-v-f895b5e0></span
+                      ></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="divider" data-v-dac69e74>
+              <div class="divider-line" data-v-dac69e74></div>
+            </div>
+          </div>
+          <!---->
+        </header>
+        <!----><!---->
+        <div
+          class="VPContent is-home"
+          id="VPContent"
+          data-v-7aa807ef
+          data-v-b934d83e
+        >
+          <div class="VPHome" data-v-b934d83e data-v-c6199a69>
+            <!--[--><!--]-->
+            <div class="VPHero VPHomeHero" data-v-c6199a69 data-v-32cafb29>
+              <div class="container" data-v-32cafb29>
+                <div class="main" data-v-32cafb29>
+                  <!--[--><!--]--><!--[-->
+                  <h1 class="heading" data-v-32cafb29>
+                    <span class="name clip" data-v-32cafb29>Commedia Web</span
+                    ><span class="text" data-v-32cafb29
+                      >Developer documentation</span
+                    >
+                  </h1>
+                  <p class="tagline" data-v-32cafb29>
+                    Everything you need to integrate, configure, and customize
+                    your immersive video player.
+                  </p>
+                  <!--]--><!--[--><!--]-->
+                  <div class="actions" data-v-32cafb29>
+                    <!--[--><!--]--><!--[-->
+                    <div class="action" data-v-32cafb29>
+                      <a
+                        class="VPButton no-icon medium brand"
+                        href="/developer/guide/getting-started.html"
+                        data-v-32cafb29
+                        data-v-6356dfe3
+                        ><!--[-->Getting Started<!--]--></a
+                      >
+                    </div>
+                    <div class="action" data-v-32cafb29>
+                      <a
+                        class="VPButton no-icon medium alt"
+                        href="/developer/api/player-attributes.html"
+                        data-v-32cafb29
+                        data-v-6356dfe3
+                        ><!--[-->API Reference<!--]--></a
+                      >
+                    </div>
+                    <!--]-->
+                  </div>
+                  <!--[--><!--]-->
+                </div>
+                <!---->
+              </div>
+            </div>
+            <!--[--><!--]--><!--[--><!--]-->
+            <div
+              class="VPFeatures VPHomeFeatures"
+              data-v-c6199a69
+              data-v-aff0b625
+            >
+              <div class="container" data-v-aff0b625>
+                <ul class="items" data-v-aff0b625>
+                  <!--[-->
+                  <li class="grid-3 item" data-v-aff0b625>
+                    <div
+                      class="VPLink no-icon VPFeature"
+                      data-v-aff0b625
+                      data-v-f20d54ef
+                    >
+                      <!--[-->
+                      <article class="box" data-v-f20d54ef>
+                        <div class="icon" data-v-f20d54ef>🛠️</div>
+                        <h2 class="title" data-v-f20d54ef>Easy Integration</h2>
+                        <p class="details" data-v-f20d54ef>
+                          Get started quickly with clear setup instructions and
+                          everything you need to embed the player into your
+                          platform.
+                        </p>
+                        <!---->
+                      </article>
+                      <!--]-->
+                    </div>
+                  </li>
+                  <li class="grid-3 item" data-v-aff0b625>
+                    <div
+                      class="VPLink no-icon VPFeature"
+                      data-v-aff0b625
+                      data-v-f20d54ef
+                    >
+                      <!--[-->
+                      <article class="box" data-v-f20d54ef>
+                        <div class="icon" data-v-f20d54ef>⚙️</div>
+                        <h2 class="title" data-v-f20d54ef>
+                          Flexible Configuration
+                        </h2>
+                        <p class="details" data-v-f20d54ef>
+                          Configure options and tailor the player to fit your
+                          needs. Fine tune the behavior and appearance to create
+                          an intuitive user experience.
+                        </p>
+                        <!---->
+                      </article>
+                      <!--]-->
+                    </div>
+                  </li>
+                  <li class="grid-3 item" data-v-aff0b625>
+                    <div
+                      class="VPLink no-icon VPFeature"
+                      data-v-aff0b625
+                      data-v-f20d54ef
+                    >
+                      <!--[-->
+                      <article class="box" data-v-f20d54ef>
+                        <div class="icon" data-v-f20d54ef>📚</div>
+                        <h2 class="title" data-v-f20d54ef>
+                          Detailed Documentation
+                        </h2>
+                        <p class="details" data-v-f20d54ef>
+                          Explore configuration options and practical examples
+                          to understand the player's capabilities and
+                          customizations.
+                        </p>
+                        <!---->
+                      </article>
+                      <!--]-->
+                    </div>
+                  </li>
+                  <!--]-->
+                </ul>
+              </div>
+            </div>
+            <!--[--><!--]-->
+            <div
+              class="VPHomeContent vp-doc container"
+              data-v-c6199a69
+              data-v-24cfbf57
+            >
+              <!--[-->
+              <div style="position: relative" data-v-c6199a69><div></div></div>
+              <!--]-->
+            </div>
+          </div>
+        </div>
+        <footer class="VPFooter" data-v-7aa807ef data-v-0fe63196>
+          <div class="container" data-v-0fe63196>
+            <!---->
+            <p class="copyright" data-v-0fe63196>
+              Commedia © 2026. All rights reserved.
+            </p>
+          </div>
+        </footer>
+        <!--[--><!--]-->
+      </div>
+    </div>
   </body>
 </html>
